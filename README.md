@@ -1,2 +1,2 @@
-# -GuessMyNumber
+# GuessMyNumber
 first js project
