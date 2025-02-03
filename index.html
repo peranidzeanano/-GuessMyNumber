@@ -16,6 +16,7 @@
   <body>
     
     <div class="container">
+    
       <button class="reset">AGAIN</button>
 
       <h1 class="title">Guess My Number</h1>
@@ -37,7 +38,24 @@
           <p class="highscore">highscore: 0</p>
         </div>
         </div>
+    
+      
+
       </div> 
-      <script src="script.js"></script>
+      <div class="overlay">
+        <div class="pop-up">
+          <ion-icon class="svg-X" name="close-outline"></ion-icon>
+          <h2 class="pop-up-title">YOU WON THE GAME</h2>
+         
+          <p class="pop-up-instruction">click to play  again</p>
+          <button class="pop-up-btn">continue</button>
+        </div>
+      </div>
+   
+    
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
   </body>
 </html>
